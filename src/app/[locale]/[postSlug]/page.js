@@ -8,6 +8,7 @@ export default function Home() {
     <main>
       <div className={styles.main}>
         <div className={styles.description}>
+          <Link href="/">Back to Home</Link>
           <Link
             href={{
               pathname: "/super",
