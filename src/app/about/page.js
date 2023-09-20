@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 import Link from "next/link";
 
 export default function Home() {
@@ -9,14 +9,11 @@ export default function Home() {
         <div className={styles.description}>
           <Link
             href={{
-              pathname: "/about",
+              href: "/",
               hash: "#target-section",
-              query: {
-                page: 1,
-              },
             }}
           >
-            Go To About Target Section
+            Go To Target Section
           </Link>
           <p>
             Get started by editing&nbsp;
@@ -107,7 +104,7 @@ export default function Home() {
         </div>
       </div>
       <div id="target-section" className={styles.targetSection}>
-        Target section
+        TargetSection
       </div>
     </main>
   );
