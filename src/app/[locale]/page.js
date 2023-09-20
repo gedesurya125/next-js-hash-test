@@ -9,7 +9,7 @@ export default function Home() {
         <div className={styles.description}>
           <Link
             href={{
-              pathname: "/about",
+              pathname: "/super/",
               hash: "#target-section",
               query: {
                 page: 1,
